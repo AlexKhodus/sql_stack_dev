@@ -1,0 +1,1 @@
+SELECT RTRIM(LTRIM(REPLACE(REPLACE(REPLACE(' a  b s   u  ', ' ', '<>'), '><', ''), '<>', ' ')))
